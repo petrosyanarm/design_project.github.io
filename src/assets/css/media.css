@@ -1,0 +1,282 @@
+@media (max-width: 576px) {
+    .bg_image{
+        height: 155vh;
+    }
+    .home_part1_text{
+        height: 280px;
+        justify-content: center;
+        align-items: center;
+    }
+    .part1_text{
+        width: 100%;
+        height: 280px;
+    }
+    .home_part1_menu{
+        height: 320px;
+        display: flex;
+    }
+    .part1_menu{
+        width: 100%;
+        height: 300px;
+        justify-content: flex-end;
+    }
+    .part1_menu_welcome{
+        width: 35%;
+        height: 130px;
+    }
+    #welcome_block{
+        width: 95%;
+        height: 125vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome_texts{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .welcome_text{
+        width: 90%;
+        height: 540px;
+    }
+    .welcome_text img{
+        width: 100%;
+        height: 128px;
+    }
+    #team_block {
+        width: 95%;
+        height: 145vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team_title{
+        margin-top: 10px;
+    }
+    .team_box{
+        height: 145vh;
+        justify-content: center;
+    }
+    .team_texts{
+        height: 125vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .team_text{
+        width: 95%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team_text p {
+        font-size: 15px;
+    }
+    .team_img{
+        width: 90%;
+        height: 450px;
+        margin-top: 20px;
+    }
+    .team_img img{
+        width: 80%;
+        height: 300px;
+    }
+    .team_text button {
+        width: 40%;
+    }
+    #work_block{
+        width: 95%;
+        height: 120vh;
+    }
+    .work_text{
+        height: 370px;
+        margin-top: 100px;
+    }
+    .work_carousel{
+        height: 250px;
+    }
+    .work_carousel img{
+        width: 73%;
+        height: 120px;
+    }
+    #contact_block{
+        width: 95%;
+        height: 800px;
+    }
+    .contact_box{
+        height: 700px;
+    }
+    .contact_form button {
+        width: 35%;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media  (min-width: 577px) and (max-width: 767px) {
+    .bg_image{
+        height: 110vh;
+    }
+    .home_part1_text{
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+    .part1_text{
+        width: 100%;
+        height: 250px;
+    }
+    .home_part1_menu{
+        /*height: 300px;*/
+        display: flex;
+    }
+    .part1_menu{
+        width: 100%;
+        /*border: 1px solid red;*/
+        justify-content: flex-end;
+    }
+    .part1_menu_welcome{
+        width: 33%;
+        height: 150px;
+    }
+    #welcome_block{
+        width: 90%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*flex-direction: column;*/
+    }
+    .welcome_texts{
+        height: 620px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .welcome_text{
+        width: 90%;
+        height: 300px;
+    }
+    .welcome_text p {
+        margin-top: 5px;
+    }
+    .welcome_text img{
+        width: 70%;
+        height: 160px;
+    }
+    #team_block {
+        width: 90%;
+        height: 110vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .team_title{
+        margin-top: 10px;
+    }
+    .team_box{
+        height: 100vh;
+        justify-content: center;
+    }
+    .team_texts{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .team_text{
+        width: 90%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team_text p {
+        font-size: 15px;
+    }
+    .team_img{
+        width: 90%;
+        height: 350px;
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+    .team_img img{
+        width: 70%;
+        height: 250px;
+    }
+    .team_text button {
+        width: 35%;
+    }
+    #work_block{
+        width: 90%;
+        height: 100vh;
+    }
+    .work_text{
+        height: 300px;
+    }
+    .work_carousel img{
+        width: 83%;
+        height: 140px;
+    }
+    .work_carousel{
+        height: 250px;
+    }
+    #contact_block{
+        width: 90%;
+        height: 100vh;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .part1_menu {
+        width: 100%;
+    }
+    .part1_menu_welcome{
+        width: 42%;
+        height: 140px;
+    }
+    #welcome_block {
+        width: 90%;
+    }
+    #team_block {
+        width: 90%;
+    }
+    .team_text button {
+        width: 40%;
+        height: 65px;
+    }
+    #work_block {
+        width: 90%;
+    }
+    .work_carousel img{
+        width: 85%;
+        height: 140px;
+    }
+    #contact_block {
+        width: 90%;
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .part1_menu {
+        width: 100%;
+    }
+    .part1_menu_welcome{
+        width: 42%;
+        height: 160px;
+    }
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .part1_menu {
+        width: 100%;
+    }
+    .part1_menu_welcome{
+        width: 42%;
+        height: 160px;
+    }
+}
